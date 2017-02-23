@@ -1,0 +1,408 @@
+/* Basics */
+* {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+    Margin: 0;
+    padding: 0;
+    min-width: 100%;
+    background-color: #ffffff;
+}
+
+table {
+    border-spacing: 0;
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+}
+
+td {
+    padding: 0;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.webkit {
+    max-width: 600px;
+}
+
+.outer {
+    Margin: 0 auto;
+    width: 100%;
+    max-width: 620px;
+}
+
+.full-width-image img {
+    width: 100%;
+    height: auto;
+}
+
+.inner {
+    padding: 10px;
+}
+
+p {
+    Margin: 0;
+}
+
+a {
+    color: #ee6a56;
+    text-decoration: underline;
+}
+
+.h1 {
+    color:#006892;
+    font-size: 19px;
+    font-weight: bold;
+    Margin-top: 10px;
+    Margin-bottom: 5px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    font-size: 0;
+}
+
+.header .column {
+    width: 100%;
+    max-width: 310px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.contents {
+    width: 100%;
+}
+
+.header .inner {
+    padding: 7px 10px;
+}
+
+.header .contents {
+    font-size: 10px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.header .text {
+    text-align: right;
+}
+
+.header .text span {
+    margin-right: 4px; 
+}
+
+.header .text a {
+    color: #ffffff;
+}
+
+/* Main Pic */
+
+/*Three column layout*/
+.three-column {
+    text-align: center;
+    font-size: 0;
+}
+
+.three-column .column {
+    width: 100%;
+    max-width: 206px;
+    display: inline-block;
+    vertical-align: top;
+    padding:10px;
+}
+
+.entry {
+    border: 1px solid #c7c7c7; 
+    border-radius: 4px;
+}
+
+.entry .content {
+    font-size: 11px;
+    color: #000000;
+    text-align: left;
+}
+
+.entry .h3 {
+    font-size: 12px;
+    font-weight: bold; 
+    Margin: 10px 0 0 15px;
+}
+
+.three-column .pic {
+    height: 160px;
+    width: 185px;
+    padding: 35px auto;
+}
+
+.three-column img {
+    width: auto;
+    max-height: 90px;
+    Margin: 0 auto;
+    text-align: center;
+}
+
+.entry-footer {
+    border-top: 1px solid #c7c7c7;
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
+.entry-footer .col1 {
+    padding: 15px; 
+    border-right: 1px solid #c7c7c7;
+    background-color: #ffffff;
+}
+
+.entry-footer .col2 {
+    padding:15px 10px 15px 15px;
+    background-color: #e8e8e8;
+}
+
+p.price-del {
+    font-size:13px; 
+    color:#858585; 
+    margin:0 0 8px;
+}
+
+p.price {
+    font-size:13px; 
+    color: #0072a0; 
+    margin:0;
+}
+
+/* Buttons */
+.more { 
+    text-align:center;
+}
+
+.btn,
+.btn2 {
+    padding: 10px 20px;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    color: #828282;
+    background-color: #ebebeb;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn {
+    Margin: 20px auto 40px;
+}
+
+.download-btn {
+    Margin: -60px auto 0;
+}
+
+.btn2 {
+    box-shadow:2px 5px 3px -3px #bababa;
+}
+
+/* Footer */
+.footer-top img {
+    width: 100%;
+    height: auto;
+}
+
+img.foot-logo {
+    width: 170px;
+    height: 29px;
+    border: 0;
+}
+
+.footer-top, 
+.footer-bottom {
+    text-align: center;
+    font-size: 0;
+}
+
+.footer-bottom {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.footer-top .column,
+.footer-bottom .column {
+    width: 100%;
+    max-width: 310px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.footer-top .inner,
+.footer-bottom .inner {
+    padding: 7px 10px;
+}
+
+.footer-top .contents,
+.footer-bottom .contents {
+    font-size: 10px;
+    text-align: left;
+    color: #93dbf8;
+}
+
+.footer-top .links,
+.footer-bottom .text {
+    text-align: right;
+}
+
+.footer-top .links span {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 0;
+    Margin-right: 12px;
+    line-height: 29px; 
+}
+
+.footer-top .links { 
+    text-align:right; 
+    Margin:0 0 0 auto;
+}
+
+.footer-bottom .contents p {
+    Margin-bottom: 7px;
+}
+
+.footer-bottom .contents a {
+    color: #93dbf8;
+}
+
+.footer-bottom .pipe {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #1886b1;
+}
+
+.footer-bottom .text a {
+    color: #93dbf8;;
+}
+
+.footer-bottom .text {
+    font-size: 10px;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 640px) {
+    .header .contents,
+    .header .text,
+    .h1,
+    .footer-top .contents,
+    .footer-top .links,
+    .footer-bottom .contents,
+    .footer-bottom .text {
+       text-align: center; 
+    }
+
+    .header .inner {
+        padding: 10px 10px 0;
+    }
+
+    .header .text {
+        padding-bottom: 12px;
+    }
+
+    .header img,
+    .footer-top img {
+        text-align: center;
+        Margin: 0 auto;
+    }
+
+    .footer-top table.links {
+        text-align: center;
+        Margin:0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .three-column .pic {
+        height: 150px;
+        padding: 30px auto;
+    }
+
+    .three-column img {
+        max-height: 80px;
+    }
+
+    .download-btn {
+        Margin: -50px auto 0;
+    }
+
+    .btn {
+        Margin: 15px auto 30px;
+    }
+
+    .btn,
+    .btn2 {
+        padding: 8px 19px;
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        padding-top: 3px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .h1 {
+        Margin-bottom: 0;
+    }
+
+    .download-btn {
+        Margin: -45px auto 0;
+    }
+
+    .btn2 {
+        padding: 7px 17px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+   .download-btn {
+        Margin: -39px auto 0;
+    }
+
+    .btn2 {
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+   .download-btn {
+        Margin: -34px auto 0;
+    }
+}
+
+/* Windows Phone Viewport Fix */
+@-ms-viewport { 
+    width: device-width; 
+}
