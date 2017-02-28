@@ -34,17 +34,6 @@ img {
     border: 0;
 }
 
-.wrapper {
-    width: 100%;
-    table-layout: fixed;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
-
-.webkit {
-    max-width: 600px;
-}
-
 .outer {
     Margin: 0 auto;
     width: 100%;
@@ -300,13 +289,12 @@ img.foot-logo {
 }
 
 .footer-bottom .text a {
-    color: #93dbf8;;
+    color: #93dbf8;
 }
 
 .footer-bottom .text {
     font-size: 10px;
 }
-
 
 /*Media Queries*/
 @media screen and (max-width: 640px) {
